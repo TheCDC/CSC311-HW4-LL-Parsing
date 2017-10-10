@@ -3,6 +3,8 @@ Implementation of LL(1) parse table for CSC 311
 
 Christopher Chen
 
+Parse Table:
+
 
 ```	id	*	+	(	)	$
 E	TE'			TE'	
@@ -11,3 +13,5 @@ T	FT'			FT'
 T'		*FT'	e		e	e
 F	id			(E)
 ```
+
+
